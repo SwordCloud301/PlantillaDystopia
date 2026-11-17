@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dystopia Bowling — Escape from reality: boliche, gastrobar y estaciones gamer. El mejor entretenimiento familiar.">
+    <title>Dystopia Bowling | Diversión en Familia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@500;700;900&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo" aria-label="Dystopia Bowling - Inicio">
+                DYSTOPIA<span>BOWLING</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#bowling" class="nav-link">Bowling</a>
+                <a href="#planes" class="nav-link">Planes</a>
+                <a href="#gastrobar" class="nav-link">GastroBar</a>
+                <a href="#contacto" class="btn btn-neon nav-cta">Reservar</a>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============ HERO (HOME) ============ -->
+    <section class="hero" id="inicio">
+        <!-- Placeholder de fondo negro / preparado para tu foto del local -->
+        <div class="hero-bg-placeholder"></div>
+        <div class="hero-glow glow-cyan"></div>
+        <div class="hero-glow glow-magenta"></div>
+
+        <div class="container hero-content">
+            <div class="hero-badge-wrapper">
+                <span class="hero-badge">✨ ESCAPE FROM REALITY · BOWLING BOUTIQUE</span>
+            </div>
+            <h1 class="hero-title">
+                La experiencia definitiva<br>
+                <span class="text-neon-cyan">en familia y con amigos</span>
+            </h1>
+            <p class="hero-sub">
+                Disfruta el mejor medio de entretenimiento para socializar. Pistas de boliche de última generación, 
+                un vibrante GastroBar y estaciones gamer seccionadas para vivir una noche inolvidable.
+            </p>
+            <div class="hero-buttons">
+                <a href="#planes" class="btn btn-neon">Ver planes y precios</a>
+                <a href="#bowling" class="btn btn-outline">Conocer el local</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ BOWLING ============ -->
+    <section class="section" id="bowling">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">NUESTRA PREMISE PRINCIPAL</p>
+                <h2 class="section-title">Boliche <span class="text-neon-magenta">Dystopia</span></h2>
+                <p class="section-desc">
+                    El corazón de nuestro centro de entretenimiento. Pistas profesionales diseñadas para la diversión familiar, 
+                    ambientadas con iluminación neón y tecnología de punta.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">🎳</div>
+                    <h3>Pistas Profesionales</h3>
+                    <p>Superficies impecables con marcadores automatizados para principiantes y expertos.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Ambiente Familiar</h3>
+                    <p>Diseñado para socializar, con rieles y bumpers adaptados para los más pequeños del hogar.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Experiencia Neón</h3>
+                    <p>Efectos visuales inmersivos y música en vivo que transforman cada partida en un espectáculo.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PLANES ============ -->
+    <section class="section section-alt" id="planes">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">PRECIOS COMPETITIVOS</p>
+                <h2 class="section-title">Nuestros <span class="text-neon-cyan">Planes</span></h2>
+                <p class="section-desc">Disfruta de las mejores tarifas de la ciudad. ¡Zapatos, bolas e IVA incluidos en tu tarifa!</p>
+            </div>
+
+            <div class="plans-grid">
+                <article class="plan-card">
+                    <h3 class="plan-name">Plan Regular / Hora</h3>
+                    <p class="plan-people">Hasta 6 personas en pista</p>
+                    <p class="plan-price"><span class="currency">$</span>24<span class="per">.99 / hora</span></p>
+                    <ul class="plan-list">
+                        <li>1 hora de juego libre</li>
+                        <li>Zapatos y bolas incluidos</li>
+                        <li>Ideal para grupos y familias</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-outline btn-block">Reservar Pista</a>
+                </article>
+
+                <article class="plan-card plan-featured">
+                    <span class="plan-badge">Más Popular</span>
+                    <h3 class="plan-name">Plan Nocturno / Prime</h3>
+                    <p class="plan-people">Hasta 6 personas en pista</p>
+                    <p class="plan-price"><span class="currency">$</span>29<span class="per">.99 / hora</span></p>
+                    <ul class="plan-list">
+                        <li>1 hora de juego en horario prime</li>
+                        <li>Zapatos y bolas incluidos</li>
+                        <li>Ambiente neón y máxima energía</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-neon btn-block">Reservar Pista</a>
+                </article>
+
+                <article class="plan-card">
+                    <h3 class="plan-name">Zona Gamer & Pool</h3>
+                    <p class="plan-people">Entretenimiento seccionado</p>
+                    <p class="plan-price"><span class="currency">$</span>4<span class="per">.99 od</span></p>
+                    <ul class="plan-list">
+                        <li>Estaciones gamer de alto rendimiento</li>
+                        <li>Mesas de pool disponibles</li>
+                        <li>Diversión asegurada fuera de pista</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-outline btn-block">Consultar</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GASTROBAR & GAMER ============ -->
+    <section class="section" id="gastrobar">
+        <div class="container services-grid">
+            <article class="service-card service-gastro">
+                <div class="service-body">
+                    <p class="service-tag">FOOD & DRINKS 🍕🍹</p>
+                    <h3>GastroBar</h3>
+                    <p>
+                        Deliciosas opciones gastronómicas, hamburguesas, pizzas y una coctelería de autor 
+                        para acompañar tus mejores momentos de socialización.
+                    </p>
+                    <!-- Enlace directo al Google Drive del menú -->
+                    <a href="https://drive.google.com/drive/folders/tu-enlace-aqui" target="_blank" class="btn btn-outline btn-sm">Ver Menú en Drive</a>
+                </div>
+            </article>
+
+            <article class="service-card service-gamer" id="gamer">
+                <div class="service-body">
+                    <p class="service-tag">GAMER ZONE 🎮</p>
+                    <h3>Estaciones Gamer Seccionadas</h3>
+                    <p>
+                        Un espacio moderno y totalmente independiente con consolas de última generación 
+                        y equipos de alta gama para los amantes de los videojuegos.
+                    </p>
+                    <a href="#contacto" class="btn btn-outline btn-sm">Conocer la Zona</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer" id="contacto">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#inicio" class="logo logo-footer">DYSTOPIA<span>BOWLING</span></a>
+                <p>Escape from reality. El centro de entretenimiento familiar donde la diversión nunca se apaga.</p>
+                <div class="social-links">
+                    <!-- Enlaces requeridos a Instagram y WhatsApp -->
+                    <a href="https://instagram.com/dystopiabowling" target="_blank" aria-label="Instagram">IG</a>
+                    <a href="https://whatsapp.com" target="_blank" aria-label="WhatsApp">WA</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Explora</h4>
+                <a href="#bowling">Bowling</a>
+                <a href="#planes">Planes</a>
+                <a href="#gastrobar">GastroBar</a>
+                <a href="https://drive.google.com/drive/folders/tu-enlace-aqui" target="_blank">Menú Digital</a>
+            </div>
+            <div class="footer-col">
+                <h4>Visítanos</h4>
+                <p>Av. Principal, Centro Comercial X, Local 12</p>
+                <p>Mar – Dom · 12:00 pm – 12:00 am</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>+58 (000) 000-0000</p>
+                <p>contacto@dystopiabowling.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dystopia Bowling. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
